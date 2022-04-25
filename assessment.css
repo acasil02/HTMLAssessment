@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5 {
+  color: darkgreen; font-family: sans-serif;
+}
+
+#scoreBoard, tbody, th, td {
+  border-style: solid;
+  text-align: center;
+}
+
+thead {
+  color: green;
+}
+
+li {
+  list-style: square;
+}
+
+a:hover {
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: darkgreen;
+  color: yellow;
+}
+
+#teamRoster > li:first-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/100px-Denver_Broncos_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#teamRoster > li:last-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/193px-Chicago_Bears_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img {
+  display: none;
+}
+
+#checkbox-grid li {
+  list-style: none;
+}
+
+
+/* stretch goals */
+
+#teamRoster li:first-child>ol {
+  font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+#teamRoster ul {
+  width: 15%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
